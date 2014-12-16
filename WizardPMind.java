@@ -1,6 +1,5 @@
 /*
 Author: Ciaran O'Connor
-Student number: 12326096
 Title: WizardPMind
 CA318
 All work is my own except some remaining snippets from "ImageMind"
