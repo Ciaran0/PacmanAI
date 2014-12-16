@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Wizard Pacman</title>
+	</head>
+	<body>
+		<h1>Wizard style PacMan</h1>
+		<h2>Overview</h2>
+		<p>Game is mainly traditional to original pacman. Paman is the broom. </br>
+			He is chased by 4 ghosts or in this game four snakes.</br>
+			The wizard has 3 lives. He loses a life evry time a snake catches him</br>
+			The wizard has to collect the dots which count 1  point towards the score</br>
+			Potions appear in the game, they are worth 12 points towards the score.</br>
+		</p>
+		<h2>State</h2>
+		<p>State in this game is 2 dimensialal grid in which all elements are represented
+		</p>
+		<ul>
+			<li>Wall = 1</li>
+			<li>Edible dot = 0</li>
+			<li>Dot eaten = 2</li>
+			<li>Door / portal = 3</li>
+			<li>Potion = 4</li>
+			<li>wizard = 5</li>
+			<li>Snake 1 = 6</li>
+			<li>Snake 2 = 7</li>
+			<li>Snake 3 = 8</li>
+			<li>Snake 4 = 9</li>
+		</ul>
+
+		<h2>Action</h2>
+		<p>
+			Action gets an action from the mind.
+			For this word this is an int 6 -9
+			<ul>
+				<li>Move down = 6</li>
+				<li>Move up = 7</li>
+				<li>Move right = 8</li>
+				<li>Move left = 9</li>
+			</ul>
+		</p>
+
+		<h2>Score Format</h2>
+		<p>The score is based off how many dots and potions you collect</br>
+			Dots are worth 1 point towards the score. Potions 12.
+		</p>
+
+
