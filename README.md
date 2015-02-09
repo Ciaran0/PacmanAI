@@ -6,6 +6,9 @@ To build a world and simple mind for [w2mind.computing.dcu](http://w2mind.comput
 
 World is a pacman style world where pacman is controlled by the mind and everything else is controlled by the world, including the ghosts.
 
+###Approach taken
+I used A* algorithim with manhatten distance as the heuristic. 
+
 #Wizard style PacMan
 
 ##Overview
